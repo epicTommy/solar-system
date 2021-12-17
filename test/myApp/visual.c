@@ -11,21 +11,22 @@ int printSS(){
   printw("s");
 
   for(int i = 0; i < PlanetNum; i++){
-    printPlanet(getcA(i), row, col);
+    printPlanet(getcA(i), row, col, i);
   }
   sleep(1);
   return SUCESS;
 }
 
-int printPlanet(double cA, double r, double c){
-  move(r - 2 * sin(cA), c - 2 * cos(cA));
+int printPlanet(double cA, double r, double c, int i){
+  move(r + i* 2 * sin(cA), c + i * 2 * cos(cA));
   return SUCESS;
 }
 
 int numYear(int year){
-  initscr();
   init();
-  printf("in num");
+  initscr();
+  raw();
+  printf("in num\n");
   for(int i = 0; i < year; i++){
     printSS();
   }

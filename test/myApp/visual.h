@@ -9,9 +9,8 @@
 #include "planet_data.h"
 
 int printSS();
-int printPlanet(double cA, double r, double c);
 int numYear(int year);
-
+int printPlanet(double cA, double r, double c, int i);
 
 
 
