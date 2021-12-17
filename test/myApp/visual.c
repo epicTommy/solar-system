@@ -25,6 +25,7 @@ int printPlanet(double cA, double r, double c){
 int numYear(int year){
   initscr();
   init();
+  printf("in num");
   for(int i = 0; i < year; i++){
     printSS();
   }

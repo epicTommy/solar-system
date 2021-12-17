@@ -13,7 +13,7 @@ CFLAGS= -g
 #CFLAGS=-Wall -Werror -ansi -pedantic-errors -std=c99 -g
 # linking flags
 #LDFLAGS=-lm
-LDFLAGS=
+LDFLAGS=-lncurses -lm
 # all the C source files end in .c
 SRCS=$(wildcard *.c)
 OBJS=$(SRCS:.c=.o)

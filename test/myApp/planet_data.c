@@ -19,7 +19,6 @@ int init(){
 
   for(int i = 0; i < PlanetNum ; i++){
     planet[i].cA = cA(i);
-    printf("%lf", planet[i].cA);
   }
    return SUCESS;
 }
