@@ -1,4 +1,4 @@
-// main.c and main.h written by Nick
+ //Tom did code below//
 /* vis.c */
 #include "main.h"
 
