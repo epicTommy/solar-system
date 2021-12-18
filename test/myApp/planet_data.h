@@ -7,6 +7,7 @@
 /* Global Variable Declarations */
 double PI;
 double PlanetNum;
+double DT;
 
 /* Data Structure Declarations */
 struct Planet{

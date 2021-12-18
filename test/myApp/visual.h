@@ -8,7 +8,8 @@
 #include <math.h>
 #include "planet_data.h"
 
-int printSS();
+int CURTIME;
+int printSS(double row, double col);
 int numYear(int year);
 int printPlanet(double cA, double r, double c, int i);
 

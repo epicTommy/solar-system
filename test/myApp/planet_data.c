@@ -7,7 +7,8 @@ static struct Planet planet[8];
 int init(){
   PI = 3.141592;
   PlanetNum = 8;
-
+ 
+  DT = 30;
   planet[0].period = 87.969;
   planet[1].period = 224.701;
   planet[2].period = 365.256;

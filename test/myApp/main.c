@@ -3,6 +3,6 @@
 
 
 int main(void) {
-  numYear(2);
+  numYear(2*365);
   return 0;
 }
