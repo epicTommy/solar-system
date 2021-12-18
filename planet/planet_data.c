@@ -1,10 +1,10 @@
 /* project.c */
-//planet.c and planet.h written by Hyungkyu Lee
 #include "planet_data.h"
 
 static struct Planet planet[8];
 
 /* Global Variable definitions */
+//Nicholas did code below//
 int init(){
   PI = 3.141592;
   PlanetNum = 8;
@@ -18,6 +18,8 @@ int init(){
   planet[5].period = 10759.22;
   planet[6].period = 30685.4;
   planet[7].period = 60189.0;
+  
+  //Tom did code below//
 
   for(int i = 0; i < PlanetNum ; i++){
     planet[i].cA = cA(i);
