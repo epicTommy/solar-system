@@ -1,5 +1,5 @@
 /* project.c */
-//file written by Hyungkyu Lee
+//planet.c and planet.h written by Hyungkyu Lee
 #include "planet_data.h"
 
 static struct Planet planet[8];
